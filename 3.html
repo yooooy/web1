@@ -3,15 +3,29 @@
 <head>
   <title>WEB1 - JavaScript</title>
   <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="colors.js"></script>
 </head>
 <body>
   <h1><a href="index.html">WEB</a></h1>
+  <!--
+  <input type="button" value="night" onclick="
+    document.querySelector('body').style.backgroundColor = 'black';
+    document.querySelector('body').style.color = 'white';">
+  <input type="button" value="day" onclick="
+    document.querySelector('body').style.backgroundColor = 'white';
+    document.querySelector('body').style.color = 'black';">
+  -->
+  <input type="button" value="night" onclick="
+    nightDayHander(this);
+  ">
+
   <ol>
     <li><a href="1.html">HTML</a></li>
     <li><a href="2.html">CSS</a></li>
     <li><a href="3.html">JavaScript</a></li>
   </ol>
   <h2>JavaScript</h2>
-  <p>JavaScript!!</p>
+  <p>JavaScript!! 낮잠자면 안됨!! 하루 다 끝난다 ㅜㅜ </p>
 </body>
 </html>
